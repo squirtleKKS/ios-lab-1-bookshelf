@@ -13,22 +13,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		91D3F21A2F40607F00190B15 /* Exceptions for "App" folder in "bookshelf" target */ = {
+		917A35AA2F44BF7300BC17DE /* Exceptions for "Data" folder in "bookshelf" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				BookshelfApp.swift,
+				BookShelfRepository.swift,
+				BookshelfRepositoryUtils.swift,
+				InMemoryBookShelfRepository.swift,
 			);
 			target = 91DA1B1C2F3B79CF000FC0E2 /* bookshelf */;
 		};
-		91D3F21C2F40608400190B15 /* Exceptions for "Services" folder in "bookshelf" target */ = {
+		917A35AB2F44BF7300BC17DE /* Exceptions for "UI" folder in "bookshelf" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				BookShelfService.swift,
-				DefaultBookShelfService.swift,
+				AddBookView.swift,
+				BookshelfView.swift,
+				BookshelfViewModel.swift,
+				FilterSheetView.swift,
 			);
 			target = 91DA1B1C2F3B79CF000FC0E2 /* bookshelf */;
 		};
-		91D3F21F2F40608C00190B15 /* Exceptions for "Domain" folder in "bookshelf" target */ = {
+		917A35AC2F44BF7300BC17DE /* Exceptions for "Domain" folder in "bookshelf" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Book.swift,
@@ -39,22 +43,18 @@
 			);
 			target = 91DA1B1C2F3B79CF000FC0E2 /* bookshelf */;
 		};
-		91D3F2242F40609C00190B15 /* Exceptions for "UI" folder in "bookshelf" target */ = {
+		917A35AD2F44BF7300BC17DE /* Exceptions for "App" folder in "bookshelf" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				AddBookView.swift,
-				BookshelfView.swift,
-				BookshelfViewModel.swift,
-				FilterSheetView.swift,
+				BookshelfApp.swift,
 			);
 			target = 91DA1B1C2F3B79CF000FC0E2 /* bookshelf */;
 		};
-		91D3F2272F4060A500190B15 /* Exceptions for "Data" folder in "bookshelf" target */ = {
+		917A35AE2F44BF7300BC17DE /* Exceptions for "Services" folder in "bookshelf" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				BookShelfRepository.swift,
-				BookshelfRepositoryUtils.swift,
-				InMemoryBookShelfRepository.swift,
+				BookShelfService.swift,
+				DefaultBookShelfService.swift,
 			);
 			target = 91DA1B1C2F3B79CF000FC0E2 /* bookshelf */;
 		};
@@ -64,7 +64,7 @@
 		91DA1B2B2F3B8EA5000FC0E2 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				91D3F21A2F40607F00190B15 /* Exceptions for "App" folder in "bookshelf" target */,
+				917A35AD2F44BF7300BC17DE /* Exceptions for "App" folder in "bookshelf" target */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -72,7 +72,7 @@
 		91DA1B2D2F3B8F9F000FC0E2 /* Domain */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				91D3F21F2F40608C00190B15 /* Exceptions for "Domain" folder in "bookshelf" target */,
+				917A35AC2F44BF7300BC17DE /* Exceptions for "Domain" folder in "bookshelf" target */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 		91DA1B2F2F3B8FA6000FC0E2 /* Services */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				91D3F21C2F40608400190B15 /* Exceptions for "Services" folder in "bookshelf" target */,
+				917A35AE2F44BF7300BC17DE /* Exceptions for "Services" folder in "bookshelf" target */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 		91DA1B312F3B8FBC000FC0E2 /* UI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				91D3F2242F40609C00190B15 /* Exceptions for "UI" folder in "bookshelf" target */,
+				917A35AB2F44BF7300BC17DE /* Exceptions for "UI" folder in "bookshelf" target */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 		91DA1B322F3B8FCB000FC0E2 /* Data */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				91D3F2272F4060A500190B15 /* Exceptions for "Data" folder in "bookshelf" target */,
+				917A35AA2F44BF7300BC17DE /* Exceptions for "Data" folder in "bookshelf" target */,
 			);
 			path = Data;
 			sourceTree = "<group>";
