@@ -8,8 +8,6 @@
 
 /* Begin PBXFileReference section */
 		91D3F2352F44A60100190B15 /* bookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D3F2542F44AD0800190B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		91DA1B342F3B9A26000FC0E2 /* Лабораторная 1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Лабораторная 1.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -122,8 +120,6 @@
 				91DA1B2D2F3B8F9F000FC0E2 /* Domain */,
 				91DA1B2B2F3B8EA5000FC0E2 /* App */,
 				91DA1B2F2F3B8FA6000FC0E2 /* Services */,
-				91DA1B342F3B9A26000FC0E2 /* Лабораторная 1.md */,
-				91D3F2542F44AD0800190B15 /* README.md */,
 				91D3F2352F44A60100190B15 /* bookshelf.app */,
 			);
 			sourceTree = "<group>";
