@@ -1,0 +1,40 @@
+# ==============================
+# Xcode
+# ==============================
+
+# User-specific data
+**/xcuserdata/
+**/*.xcuserdata
+**/*.xcuserdatad
+**/*.xcuserstate
+
+# Breakpoints
+**/xcdebugger/
+
+# Derived data & build
+DerivedData/
+build/
+**/.build/
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# ==============================
+# macOS
+# ==============================
+
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.tmp
